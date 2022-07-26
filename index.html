@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!---------------------------- navbar------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 15px;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">測試 GA & GTM</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                選單
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="QAPage.html">多多ＱＡ</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="請輸入..." aria-label="Search" style="width: 240px; height:40px">
+            <button class="btn btn-outline-success" type="submit"  style="width:80px;height:40px;">尋找</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!------------------------------------------------------------------->
+    <!-- <div class="container">
+    <div class="card-group">
+      <div class="row">
+      <div class="col">
+      <div class="card" style="margin: 10px;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="margin: 10px;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+    <div class="card" style="margin: 10px;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+  <div class="row text-center mt-4" id="result"></div>
+
+
+<!--bottomBar-->
+<div class="navbar bg-light p-4">
+  <div class="container">
+  </div>
+</div>
+<div id="moddd"></div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jQuery 3.6.0.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--JScode-->
+    <script type="text/JavaScript">
+   var formdict = {}
+    $(document).ready(function () {
+      $.getJSON('data.json',function(data){ 
+        $.each(data, function(key,value){ 
+          let button_list = ""
+          $('#result').append('\
+              <div class="col-md-4 d-flex align-items-stretch justify-content-center  filterDiv '+ value.type + ' show " style="margin-top:10px; margin-bottom:10px; ">\
+                <div class="card-group" style="width: 380px">\
+                  <div class="card" >\
+                    <a href="'+ value.eventurl + '" title="超連結"><img class="card-img-top"  width="300px" height="400px" src="'+ value.cardimg + '\" alt="找不到圖片" border="0" ></a>\
+                      <div class="card-body">\
+                          <h5 class="card-title align-items-center">' + value.cardtitle + '</h5>\
+                      </div>\
+                          <div class="card-footer">\
+                            <div>\
+                             <!--<a class="btn btn-primary btn" data-toggle="modal" data-target="#form' + value.formid + '" style="color:white;">分享</a> -->\
+                              <a href="'+ value.eventurl + '" class="btn btn-primary btn"  target="_blank">'+ value.rightbuttonname +'</a>\
+                              <h1 name="keyword" style="display:none">'+ value.keyword + '</h1>\
+                           </div>\
+                    </div>\
+                </div>\
+              </div>');
+          $("#moddd").append('\
+              <div class="modal fade" id="form'+ value.formid + '" tabindex="-1" role="dialog" ara>\
+                  <div class="modal-dialog modal-md" role="document">\
+                      <div class="modal-content">\
+                          <div class="modal-header">\
+                              <h5 class="modal-title">' + value.modaltitle + '</h5>\
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">\
+                                                  <span aria-hidden="true">&times;</span>\
+                                              </button>\
+                          </div>\
+                          <div class="modal-body">\
+                              <div class="text-center">\
+                                  <h2>訊息預覽</h2>\
+                                  <img class="img-fluid" src="' + value.imgsrc + '">\
+                              </div>\
+                          </div>\
+                          <div class="modal-footer">\
+                              <button type="button" class="btn btn-info" id="' + value.formid + 'form " name="test1" value="' + value.formid + '">分享</button>\
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>\
+                          </div>\
+                      </div>\
+                  </div>\
+              </div>'); 
+            
+            $.each(value.button, function(key,value){  
+              console.log(value.label);
+              let one = ""
+              one = '{"type":"button","action":{"type":"uri","label":"'+ value.label +'","uri":"'+ value.uri +'"},"style":"primary","color":"#f47721","height":"sm"}'
+              button_list = button_list + "," + one
+              console.log(button_list)
+            }) 
+          let button_list1 = button_list.slice(1);
+          if (value.type == "edm"){
+            if(!value.flex){
+              value.flex = 1
+            }
+            formdict[value.formid] = '{"type":"bubble","body":{"type":"box","layout":"vertical","contents":[{"type":"image","url":"'+ value.imgsrc +'","size":"full","aspectRatio":"'+ value.ratio +'","aspectMode":"cover","gravity":"top","action": {"type": "uri","label": "action","uri": "'+ value.eventurl +'"}}],"paddingAll":"0px"},"footer":{"type":"box","layout":"vertical","spacing":"sm","contents":[{"type":"box","layout":"horizontal","contents":[{"type":"button","style":"primary","height":"sm","action":{"type":"uri","label":"分享","uri":"https://liff.line.me/1656732953-Oe4W0ZQG?formid='+ value.formid + '"},"color":"#f47721"},{"type":"button","style":"primary","height":"sm","action":{"type":"uri","label":"'+ value.linebuttonname +'","uri":"'+ value.eventurl + '"},"color":"#f47721","flex": '+ value.flex +'}],"spacing":"md"},{"type":"box","layout":"vertical","contents":['+ button_list1 +'],"spacing":"sm"}],"flex":0 }}'
+          } else{
+            if(!value.flex){
+              value.flex = 1
+            }
+            formdict[value.formid] = '{"type":"bubble","hero":{"type":"image","url":"' + value.cardimg + '","size":"full","aspectRatio":"288:179","aspectMode":"cover","action":{"type":"uri","uri":"' + value.eventurl + '"}},"body":{"type":"box","layout":"vertical","contents":[{"type":"box","layout":"vertical","contents":[{"type":"text","text":"'+ value.linetext + '","wrap":true,"action":{"type":"uri","label":"action","uri":"'+ value.secsrc + '"}}]}],"action":{"type":"uri","label":"action","uri":"'+ value.secsrc + '"}},"footer":{"type":"box","layout":"vertical","spacing":"sm","contents":[{"type":"box","layout":"horizontal","contents":[{"type":"button","style":"primary","height":"sm","action":{"type":"uri","label":"分享","uri":"https://liff.line.me/1656732953-Oe4W0ZQG?formid='+ value.formid + '"},"color":"#f47721"},{"type":"button","style":"primary","height":"sm","action":{"type":"uri","label":"'+ value.linebuttonname +'","uri":"'+ value.eventurl + '"},"color":"#f47721","flex": '+ value.flex +'}],"spacing":"md"},{"type":"box","layout":"vertical","contents":['+ button_list1 +'],"spacing":"sm"}],"flex":0 }}';
+          }
+          // formdict[value.formid] = '{"type":"bubble","hero":{"type":"image","url":"' + value.cardimg + '","size":"full","aspectRatio":"7:4","aspectMode":"cover","action":{"type":"uri","uri":"' + value.eventurl + '"}},"body":{"type":"box","layout":"vertical","contents":[{"type":"box","layout":"vertical","contents":[{"type":"text","text":"'+ value.linetext + '","wrap":true,"action":{"type":"uri","label":"action","uri":"'+ value.secsrc + '"}}]}],"action":{"type":"uri","label":"action","uri":"'+ value.secsrc + '"}},"footer":{"type":"box","layout":"vertical","spacing":"sm","contents":[{"type":"button","style":"primary","height":"sm","action":{"type":"uri","label":"分享","uri":"https://liff.line.me/1656693260-MJKrDP7a?formid='+ value.formid + '"},"color":"#f47721"},{"type":"button","style":"primary","height":"sm","action":{"type":"uri","label":"前往活動網頁","uri":"'+ value.eventurl + '"},"color":"#f47721"}],"flex":0 }}'; 
+          })
+        })
+        
+      })
+    </script>
+  </body>
+</html>

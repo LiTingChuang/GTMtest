@@ -1,0 +1,154 @@
+[
+    {
+        "formid": "1001",
+        "type": "event",
+        "cardimg": "assets/images/1.jpg",
+        "cardtitle": "線上開戶成交贈好禮",
+        "eventurl": "https://www.fubon.com/securities/hot_new/mopen-gift/index.html?utm_source=sec168&utm_medium=event_all&utm_campaign=mopen_event",
+        "modaltitle": "📢財富升等第1步 證券開戶找富邦",
+        "imgsrc": "https://emarketing.fbs.com.tw/fbs_a/user_upload/202205161126113c5a.png?38",
+        "secsrc": "https://www.fubon.com/securities/hot_new/mopen-gift/index.html?utm_source=sec168&utm_medium=event_all&utm_campaign=mopen_event",
+        "linetext": "📢財富升等第1步 證券開戶找富邦\\n\\n💰線上開戶成交贈好禮\\n\\n📆 2022/4/1～2022/6/30\\n\\n🎁活動一：新戶成交禮\\n線上開戶完成並成交一筆，即可獲得7-ELEVEN商品卡200元(限量5,000份)。\\n\\n🎁 活動二：揪友分享禮\\n揪友線上開戶成功 送momo幣100元(限量3,000份)。\\n\\n✨ 可結合北富銀數位存款帳戶，作為證券之交割銀行帳戶，再享北富銀活儲優惠喔！",
+        "rightbuttonname":"前往活動網頁",
+        "linebuttonname":"前往活動網頁",
+        "button":[
+            {"label":"前往北富銀數存帳戶優惠活動","uri":"https://www.fubon.com/banking/event/deposit/20211213/index.html"},
+            {"label": "立即線上開戶","uri": "https://mopen.fbs.com.tw/eOpen/indexH5.html?utm_source=sec168&utm_medium=event_all&utm_campaign=mopen_event#/main/home_H5"}
+        ]
+    },
+    {
+        "formid": "1002",
+        "type": "event",
+        "cardimg": "assets/images/2.jpg",
+        "cardtitle": "交易好禮抽不完",
+        "eventurl": "https://www.fbs.com.tw/Fb2022Q2Action?utm_source=sec168&utm_medium=event_all&utm_campaign=Fb2022Q2Action_event",
+        "modaltitle": "📢富來運轉 交易抽好禮",
+        "imgsrc": "https://emarketing.fbs.com.tw/fbs_a/user_upload/202205161126271a99.png?38",
+        "secsrc": "https://www.fbs.com.tw/Fb2022Q2Action",
+        "linetext": "📢富來運轉 交易抽好禮\\n\\n💰 客戶滿足下單交易條件，即可週週抽電動滑板車，月月再抽Gogoro S2等豪禮\\n\\n📆 2022/4/1～2022/6/30\\n\\n🎁活動一：交易週週抽\\n滿足交易條件，每週抽出Segway電動滑板車1名、100元LINE POINTS 100名(每個ID每周僅限1次抽獎)。\\n\\n🎁活動二：交易月月抽\\n滿足交易條件，每月抽出Giant電動自行車1名、iRobot Roomba s9掃地機器人1名、200元LINE POINTS 1,000名。\\n\\n🎁活動三：滿額加碼抽\\n滿足交易條件，抽出Gogoro S2 ABS 3名、momo幣5萬元1名、momo幣3萬元5名、momo幣1萬元10名。",
+        "rightbuttonname":"前往活動網頁",
+        "linebuttonname":"前往活動網頁",
+        "button":[
+            {"label": "立即線上下單","uri": "https://www.fbs.com.tw/e8.htm"}
+
+            
+        ]
+    },
+    {
+        "formid": "1003",
+        "type": "event",
+        "cardimg": "assets/images/3.jpg",
+        "cardtitle": "富貴要人幫 台美存股找富邦找富邦找富邦找富邦找富邦找富邦找富邦",
+        "eventurl": "https://www.fubon.com/securities/hot_new/open-now/etf.html?utm_source=sec168&utm_medium=event_all&utm_campaign=etf_event",
+        "modaltitle": "📢富貴要人幫 台美存股找富邦",
+        "imgsrc": "https://emarketing.fbs.com.tw/fbs_a/user_upload/20220516112650f567.png?38",
+        "secsrc": "https://www.fubon-ebroker.com/BusinessAgency/ETFQA",
+        "linetext": "📢富貴要人幫 台美存股找富邦\\n\\n💰 定期定額首扣贈LINE POINTS\\n月月抽iPad滿額加碼抽iPhone13\\n\\n📆 2022/2/25～2022/8/31\\n\\n🎁活動一：首次扣款禮\\n首次扣款成功即贈LINE POINTS 50點。\\n\\n🎁活動二：扣款月月抽iPad當月買進台股或美股定期定額並扣款成功，即可獲得該月抽獎機會。\\n\\n🎁 活動三：滿額加碼抽 iPhone 13\\n定期定額累積扣款滿新台幣9,000元或300美元即可獲得抽獎機會1次。\\n\\n✨台股/美股～定期定額常見問題\\n👉https://www.fubon-ebroker.com/BusinessAgency/ETFQA",
+        "rightbuttonname":"前往活動網頁",
+        "linebuttonname":"前往活動網頁",
+        "button":[
+            {"label": "⭐️約定《美股定期定額》 GO","uri": "https://dca.fbs.com.tw/rspweb"},
+            {"label": "⭐️約定《台股定期定額》 GO","uri": "https://www.fbs.com.tw/e7.htm"},
+            {"label": "🎬【定期定額心法短影音】","uri": "https://www.youtube.com/watch?v=jQTs5sANSOI"}
+        ]
+    },
+    {
+        "formid": "1004",
+        "type": "event",
+        "cardimg": "assets/images/4.jpg",
+        "cardtitle": "T+0報到，賣股當日可變現",
+        "eventurl": "https://www.fubon.com/securities/hot_new/t0/index.html",
+        "modaltitle": "📢T+0報到，賣股當日可變現",
+        "imgsrc": "https://emarketing.fbs.com.tw/fbs_a/user_upload/20220518105758dd2d.png?38",
+        "secsrc": "https://www.fubon.com/securities/hot_new/t0/index.html",
+        "linetext": "🎯富邦證券開辦「T+0借款」\\n\\n📢T+0報到，賣股當日可變現\\n\\n💰賣股當天就可變現，讓資金運用更靈活\\n\\n📆2022/5/9起\\n\\n☑️提供全線上簽署作業及跨平台\\n☑️線上借款服務三步驟即可輕鬆借款\\n\\n✨相關優惠請洽所屬營業員",
+        "rightbuttonname":"前往了解",
+        "linebuttonname":"前往了解"
+    },
+    {
+        "formid": "1005",
+        "type": "event",
+        "cardimg": "assets/images/5.jpg",
+        "cardtitle": "新舊朋友看過來 揪友活動",
+        "eventurl": "https://www.fbs.com.tw/ShareLink#getlink?utm_source=sec168&utm_medium=event_all&utm_campaign=ShareLink_event",
+        "modaltitle": "📢新舊朋友看過來 揪友活動",
+        "imgsrc": "https://emarketing.fbs.com.tw/fbs_a/user_upload/2022052605321172d3.png?38",
+        "secsrc": "https://www.fbs.com.tw/ShareLink#getlink?utm_source=sec168&utm_medium=event_all&utm_campaign=ShareLink_event",
+        "linetext": "📢新舊朋友看過來！\\n\\n💰邀請好友開戶成功限量好禮送給您，分享越多獎越多！\\n\\n📆 2022/4/1～2022/6/30\\n\\n🎁 揪友分享禮\\n揪友線上開戶成功 送momo幣100元(限量3,000份)。",
+        "flex":2,
+        "rightbuttonname":"產生專屬推薦連結",
+        "linebuttonname":"產生專屬推薦連結"
+    },
+    {
+        "formid": "1006",
+        "type": "event",
+        "cardimg": "assets/images/6.jpg",
+        "cardtitle": "證好友召集令 友禮大放送",
+        "eventurl": "https://www.fubon.com/securities/line/index.html?utm_source=sec168&utm_medium=event_all&utm_campaign=line_event",
+        "modaltitle": "📢證好友召集令 友禮大放送",
+        "imgsrc": "https://emarketing.fbs.com.tw/fbs_a/user_upload/202205260532347120.png?38",
+        "secsrc": "https://linebcs.fubon.com/fubonapi/l/43065",
+        "linetext": "🎯證券LINE官方帳號 #好友募集中\\n\\n📢證好友召集令 友禮大放送\\n\\n📆2022/03/01~2022/12/31\\n\\n🎁證好友成交禮\\n透過LINE官方帳號達成新開戶任務，除可獲得新戶成交禮商品卡200元~首次成交任一筆(含台股、定期定額、海外股票、信用交易)，再享 7-11商品卡 50元(每季結算一次，共限量500份)\\n\\n🎁 證好友訂閱禮\\n證券客戶首次綁定【富邦FUBON】LINE官方帳號，或首次訂閱【證好友專屬個人化通知】~月月抽 LINE Points 50點！",
+        "flex":2,
+        "rightbuttonname":"前往活動網頁",
+        "linebuttonname":"前往活動網頁",
+        "button":[
+            {"label": "📌立即綁定GO ","uri": "https://linebcs.fubon.com/fubonapi/l/43065"}
+        ]
+    },
+    {
+        "formid": "2001",
+        "type": "edm",
+        "cardimg": "assets/images/7.jpeg",
+        "cardtitle": "【新戶_T+2】<br>e點通操作教學",
+        "eventurl": "https://www.youtube.com/watch?v=Sey0rTgvE6k",
+        "modaltitle": "【新戶_T+2】e點通操作教學",
+        "imgsrc": "https://emarketing.fbs.com.tw/fbs_a/user_upload/202205250314212e3c.jpg?22",
+        "ratio": "449:826",
+        "rightbuttonname":"觀看教學影片",
+        "linebuttonname":"觀看教學影片"
+    },
+    {
+        "formid": "2002",
+        "type": "edm",
+        "cardimg": "assets/images/8.jpg",
+        "cardtitle": "【新戶_T+6】<br>LINE官方帳號邀請",
+        "eventurl": "https://linebcs.fubon.com/fubonapi/l/31403",
+        "modaltitle": "【新戶_T+6】LINE官方帳號邀請",
+        "imgsrc": "https://emarketing.fbs.com.tw/fbs_a/user_upload/20220525031912b240.jpg?13",
+        "ratio": "449:1198",
+        "flex":2,
+        "rightbuttonname":"綁定證券LINE好友",
+        "linebuttonname":"綁定證券LINE好友"
+    },
+    {
+        "formid": "2003",
+        "type": "edm",
+        "cardimg": "assets/images/9.jpeg",
+        "cardtitle": "【新戶_T+10】<br>海外股票教學",
+        "eventurl": "https://mopen.fbs.com.tw/eOpen/indexH5.html#/main/selectAppendType_H5",
+        "modaltitle": "【新戶_T+10】海外股票教學",
+        "imgsrc": "https://emarketing.fbs.com.tw/fbs_a/user_upload/20220525032544a9c5.jpg?45",
+        "ratio": "449:1156",
+        "flex":2,
+        "rightbuttonname":"線上加開複委託",
+        "linebuttonname":"線上加開複委託"
+    },
+    {
+        "formid": "2004",
+        "type": "edm",
+        "cardimg": "assets/images/10.jpg",
+        "cardtitle": "【新戶_T+14】<br>定期定額教學",
+        "eventurl": "https://www.fubon.com/securities/hot_new/open-now/etf.html?utm_source=sec168&utm_medium=event_all&utm_campaign=etf_event",
+        "modaltitle": "【新戶_T+14】定期定額教學",
+        "imgsrc": "https://emarketing.fbs.com.tw/fbs_a/user_upload/202205261203101024.jpg?11",
+        "ratio": "449:864",
+        "rightbuttonname":"前往定期定額活動",
+        "linebuttonname":"前往定期定額活動",
+        "flex":2,
+        "button":[
+            {"label": "⭐️約定《美股定期定額》 GO","uri": "https://dca.fbs.com.tw/rspweb"},
+            {"label": "⭐️約定《台股定期定額》 GO","uri": "https://www.fbs.com.tw/e7.htm"}
+        ]
+    }
+]

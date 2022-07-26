@@ -19,7 +19,7 @@
     {
         "formid": "1002",
         "type": "event",
-        "cardimg": "assets/images/2.jpg",
+        "cardimg": "assets/images/2.JPG",
         "cardtitle": "交易好禮抽不完",
         "eventurl": "https://www.fbs.com.tw/Fb2022Q2Action?utm_source=sec168&utm_medium=event_all&utm_campaign=Fb2022Q2Action_event",
         "modaltitle": "📢富來運轉 交易抽好禮",
@@ -37,7 +37,7 @@
     {
         "formid": "1003",
         "type": "event",
-        "cardimg": "assets/images/3.jpg",
+        "cardimg": "assets/images/3.JPG",
         "cardtitle": "富貴要人幫 台美存股找富邦找富邦找富邦找富邦找富邦找富邦找富邦",
         "eventurl": "https://www.fubon.com/securities/hot_new/open-now/etf.html?utm_source=sec168&utm_medium=event_all&utm_campaign=etf_event",
         "modaltitle": "📢富貴要人幫 台美存股找富邦",
@@ -55,7 +55,7 @@
     {
         "formid": "1004",
         "type": "event",
-        "cardimg": "assets/images/4.jpg",
+        "cardimg": "assets/images/4.JPG",
         "cardtitle": "T+0報到，賣股當日可變現",
         "eventurl": "https://www.fubon.com/securities/hot_new/t0/index.html",
         "modaltitle": "📢T+0報到，賣股當日可變現",
@@ -68,7 +68,7 @@
     {
         "formid": "1005",
         "type": "event",
-        "cardimg": "assets/images/5.jpg",
+        "cardimg": "assets/images/5.JPG",
         "cardtitle": "新舊朋友看過來 揪友活動",
         "eventurl": "https://www.fbs.com.tw/ShareLink#getlink?utm_source=sec168&utm_medium=event_all&utm_campaign=ShareLink_event",
         "modaltitle": "📢新舊朋友看過來 揪友活動",
@@ -82,7 +82,7 @@
     {
         "formid": "1006",
         "type": "event",
-        "cardimg": "assets/images/6.jpg",
+        "cardimg": "assets/images/6.JPG",
         "cardtitle": "證好友召集令 友禮大放送",
         "eventurl": "https://www.fubon.com/securities/line/index.html?utm_source=sec168&utm_medium=event_all&utm_campaign=line_event",
         "modaltitle": "📢證好友召集令 友禮大放送",
@@ -111,7 +111,7 @@
     {
         "formid": "2002",
         "type": "edm",
-        "cardimg": "assets/images/8.jpg",
+        "cardimg": "assets/images/8.JPG",
         "cardtitle": "【新戶_T+6】<br>LINE官方帳號邀請",
         "eventurl": "https://linebcs.fubon.com/fubonapi/l/31403",
         "modaltitle": "【新戶_T+6】LINE官方帳號邀請",
@@ -137,7 +137,7 @@
     {
         "formid": "2004",
         "type": "edm",
-        "cardimg": "assets/images/10.jpg",
+        "cardimg": "assets/images/10.JPG",
         "cardtitle": "【新戶_T+14】<br>定期定額教學",
         "eventurl": "https://www.fubon.com/securities/hot_new/open-now/etf.html?utm_source=sec168&utm_medium=event_all&utm_campaign=etf_event",
         "modaltitle": "【新戶_T+14】定期定額教學",
